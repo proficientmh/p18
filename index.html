@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap js link cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- fontawsome fonts cdn link  -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/78af0e5939.js" crossorigin="anonymous"></script>
+    <!-- main custom style link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+</head>
+<body>
+    <!-- header section start  -->
+    <header>
+        <section>
+            <div class="container d-flex mb-4 mt-3" id="sec1">
+                <div class="brand-logo"><img src="img/logo.png" alt=""></div>
+                <div class="login-btn ms-auto "><p class="para"><i class="fas fa-user-circle pe-2"></i>Log In</p></div>
+                <div id="mySidenav" class="sidenav">
+                   <div class="d-flex">
+                    <a href=""><img src="img/logo.png" alt=""></a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                   </div>
+                    <a href="#">Log in</a>
+                    <a href="#">Sign Up</a>
+                    <a href="#">Download the app</a>
+                    <a href="#">Plan</a>
+                    <a href="#">Explore channels</a>
+                </div>
+                <span class="menu-icon" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+        </section>
+    </header>
+    <!-- End header section  -->
+    <!-- start a uniqe section  -->
+    <section class="uniqe-exxperience pt-5 mt-4">
+        <div class="content-part">
+            <div class="container">
+                <h1>A unique experience, only on Deezer</h1>
+                <p>With our features, get the most personalized music experience.</p>
+                <div class="signup-btn btn"><p class="all-btn">SIGN UP FOR FREE</p></div>
+            </div>
+            <div class="container">
+                <div class="colap">
+                    <a href="#sec1">
+                <button type="button" class="chakra-button css-190x9nv collapsed" aria-label="go-to-content">
+                   <svg viewBox="0 0 16 16" focusable="false" class="chakra-icon css-zqs9t2 css-1onyyc7" aria-hidden="true">
+                        <path
+                            d="M7.502 12.992 1.87 6.925l-.733.68L8.002 15l6.867-7.395-.733-.68-5.634 6.067V.995h-1v11.997z">
+                        </path>
+                    </svg> 
+                </button>
+                </a>
+            </div>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/1-deks.webp" alt="" class="deks-img">
+                <img src="img/1-mobile.webp" alt="" class="mobile-img">
+            </div>
+        </div>
+    </section>
+    <!-- End uniqe section  -->
+    <!-- tailord section  -->
+    <section class="uniqe-exxperience pt-5 mt-4">
+        <div class="content-part" id="sec2">
+            <div class="container">
+                <h1>Music and podcasts tailored to your <br> tastes</h1>
+                <p class="mb-4 d-block pb-4">Your music is an expression of your identity. We make it our priority to give you the most personalized music and podcast experience, with recommendations curated for you. It's simple: the more you listen and like, the better your recommendations will be.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/2-deks.webp" alt="" class="deks-img">
+                <img src="img/2-mobile.webp" alt="" class="mobile-img">
+            </div>
+        </div>
+        <div class="bottom-border container d-flex mt-5">
+            <div class="right-bor"></div>
+            <p class="middle-text d-block">WHAT'SNEW</p>
+            <div class="left-bor"></div>
+        </div>
+    </section>
+    <!-- tairod section end  -->
+    <section class="uniqe-exxperience pt-5 mt-4">
+        <div class="content-part">
+            <div class="container">
+                <h1>Flow,<br> your personalized, infinite mix</h1>
+                <p class="mb-4 d-block pb-4">Flow serves up an automated mix of your favorites and recommendations based on what you like. In the mood to chill? Need to focus? Pick your filter from the wheel and let Flow adapt to your mood.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/3-desk.webp" alt="" class="deks-img">
+                <img src="img/3-mobile.webp" alt="" class="mobile-img">
+            </div>
+            <div class="signup-btn btn mt-5 pt-2"><p class="all-btn">DISCOVER FLOW</p></div>
+        </div>
+    </section>
+    <!-- End tailord section  -->
+    <!-- start sing along section  -->
+    <section>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="multi-pic-4" src="img/4-multi.webp" alt="">
+                </div>
+                <div class="col-md-6">
+                    <div class="sing-along-content">
+                        <h1>
+                            Sing along with lyrics</h1>
+                        <p class="sing-para mt-3">Sing along to what you're listening to with Lyrics. Want to know what the words mean? Try our Translation feature!</p>
+                        <div class="signup-btn btn mt-4"><p class="all-btn">DISCOVER LYRICS</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end sing along section  -->
+    <!-- start no internet section  -->
+    <section>
+        <div class="container no-internet-main">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="sing-along-content no-internet-content">
+                        <h1>
+                            No internet? No problem!</h1>
+                        <p class="sing-para mt-3">We don't want anything to ever come between you and your listening experience. For our paying Deezer subscribers, you can take your music and podcasts wherever you go, thanks to our download function, helping you save on data too.</p>
+                        <div class="signup-btn btn mt-4"><p class="all-btn">DISCOVER LYRICS</p></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="multi-pic-4" src="img/5-multi.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End no internet section  -->
+    <!-- start identify section  -->
+    <section class="mb-3">
+        <div class="content-part mt-5 pt-3 mb-4 pb-5">
+            <div class="container">
+                <h1>Want to identify the song playing around you?</h1>
+                <p>With SongCatcher, you can! Our song recognizing feature identifies music in seconds. Once identified, you can add the track to your favorites to listen later.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/6-dekd.webp" alt="" class="deks-img">
+                <img src="img/6-mobile.webp" alt="" class="mobile-img">
+            </div>
+            
+        </div>
+    </section>
+    <!-- End identify section  -->
+    <!-- start Elevato section  -->
+    <section>
+        <div class="content-part mt-5 pt-5">
+            <div class="container">
+                <h1>Elevate your music with High Fidelity sound</h1>
+                <p>High Fidelity sound is available as as a top-of-the-line benefit for our paying Deezer subscribers. Experience all your music in lossless quality and superior sound once, and you'll never go back.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/7-deks.webp" alt="" class="deks-img">
+                <img src="img/7-mobile.webp" alt="" class="mobile-img">
+            </div>
+            <div class="signup-btn btn mt-5 pt-3"><p class="all-btn">DISCOVER LYRICS</p></div>
+        </div>
+    </section>
+    <!-- End Elevato section  -->
+    <!-- start stream section  -->
+    <section>
+        <div class="content-part mt-5 pt-5">
+            <div class="container">
+                <h1>Stream across all your devices</h1>
+                <p>From mobile, TV, desktop, speakers and more, connect to your devices in seconds to access your music at all times.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/8-deks.webp" alt="" class="deks-img">
+                <img src="img/8-mobile.webp" alt="" class="mobile-img">
+            </div>
+            <div class="signup-btn btn mt-5 pt-3"><p class="all-btn">DISCOVER COMPATIBLE DEVICES</p></div>
+        </div>
+    </section>
+    <!-- End strea section  -->
+    <!-- start transfer sction  -->
+    <section>
+        <div class="content-part mt-5 pt-5">
+            <div class="container">
+                <h1>Transfer your library</h1>
+                <p>Import your entire music collection, including your playlists, favorites and more from other music streaming services instantly.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/9-deks.webp" alt="" class="deks-img">
+                <img src="img/9-mobile.webp" alt="" class="mobile-img">
+            </div>
+            <div class="signup-btn btn mt-5 pt-3"><p class="all-btn">DISCOVER MORE</p></div>
+        </div>
+    </section>
+    <!-- End transfer section  -->
+    <!-- start podcats section  -->
+    <section>
+        <div class="content-part mt-5 pt-5">
+            <div class="container">
+                <h1>Podcasts worth listening to</h1>
+                <p>Want to go beyond music? Discover our selection of personalized podcasts for you. Be inspired, stay informed or keep entertained with our curated podcast experience.</p>
+            </div>
+            <div class="uniqe-experience-pic">
+                <img src="img/10-deks.webp" alt="" class="deks-img">
+                <img src="img/10-mobile.webp" alt="" class="mobile-img">
+            </div>
+            <div class="signup-btn btn mt-5 pt-3 mb-4"><p class="all-btn">DISCOVER MORE</p></div>
+        </div>
+    </section>
+    <hr>
+    <!-- End podcasts section  -->
+    <!-- start footer section  -->
+    <footer>
+        <div class="bg-footer-pri text-white">
+            <div class="container">
+                <div class="row pt-1 pb-3 align-items-start">
+                    <div class="bran-media mb-4">
+                        <img  class="apple" src="img/apple.svg" alt="">
+                        <img class="google" src="img/google.png" alt="">
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <nav>
+                            <ul class="list-unstyled ft-links ml-25">
+                                <li><a class="menu-header" href="/">
+                                        Deezer</a></li>
+                                <li><a href="">
+                                        Plan</a></li>
+                                <li><a href="">
+                                        Features</a></li>
+                                <li><a href="">
+                                        Devices</a></li>
+                                <li><a href="">
+                                        Help </a></li>
+                                <li><a href="">
+                                        About us</a></li>
+                                <li><a href="">
+                                        Careers</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <nav>
+                            <ul class="list-unstyled ft-links ml-25">
+                                <li><a class="menu-header" href="/">
+                                        Explore</a></li>
+                                <li><a href="">
+                                        All channels</a></li>
+                                <li><a href="">
+                                        Charts</a></li>
+                                <li><a href="">
+                                        Most popular realeases</a></li>
+                                <li><a href="">
+                                        New Releases</a></li>
+                                <li><a href="">
+                                    Stay at home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <nav>
+                            <ul class="list-unstyled ft-links">
+                                <li><a class="menu-header" href=""><span class="text-maroon"> 
+                                        Who are we?</a></li>
+                                <li><a href="">
+                                        Musician and podcaster</a></li>
+                                <li><a href="">
+                                        Devlopers</a></li>
+                                <li><a href=""> Press</a>
+                                </li>
+                                
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-sm-12 col-lg-3">
+                        <nav>
+                            <ul class="list-unstyled ft-links ml-25">
+                                <li><a class="menu-header" href="/">
+                                        Legal</a></li>
+                                <li><a href="">
+                                        Legal information</a></li>
+                                <li><a href="">
+                                        Term and condtion of Use</a></li>
+                                <li><a href="">
+                                        Privecy Policy</a></li>
+                                <li><a href="">
+                                        cookies</a></li>
+                                <li><a href="">
+                                    Déclaration de Performance Extra-Financière</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="row">
+                        <div class="col-md-4 social-media-icons">
+                            <ul class="list-inline fl-r">
+                                <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li class="list-inline-item"><a href="" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item"><a href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 logo">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="col-md-4 copyrights">
+                            <p>&copy;2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

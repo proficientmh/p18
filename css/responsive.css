@@ -1,0 +1,99 @@
+@media only screen and (max-width: 768px){
+    .logo{
+        text-align: left;
+    }
+    .copyrights{
+        text-align: left;
+        padding: 0;
+    }
+    .logo{
+        text-align: left;
+        margin-left: -20px;
+        padding-top: 20px;
+    }
+    .copyrights{
+        text-align: left;
+        margin-left: -20px;
+        padding-top: 20px;
+    }
+    .chakra-icon{
+        width: 3em;
+        height: 1.5em;
+    }
+    .css-190x9nv{
+        width: 50px;
+        height:50px;
+        right: 2.5rem;
+    }
+    .chakra-icon{
+        width: 2.5em;
+        height: 1.3em;
+    }
+    .css-190x9nv{
+        width: 75px;
+        height:75px;
+        right: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+   
+    body h1{
+        font-family: Deezzer, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+    }
+    body p{
+        font-family: 'Open Sans', sans-serif;
+        color: #92A29C;
+        padding: 0px 10%;
+    }
+    .uniqe-experience-pic .deks-img{
+        display: none;
+    }
+    .mobile-img{
+        display: block;
+    }
+    
+    .para{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .brand-logo img{
+        width: 100px;
+        height: 40px;
+    }
+    .all-btn{
+        background-color: #fff;
+        text-align: center;
+        display: block;
+        padding: 12px 24px;
+        border-radius: 24px;
+        font-weight: bold;
+        color: #000;
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+    .chakra-icon{
+        width: 2em;
+        height: 1em;
+    }
+    .css-190x9nv{
+        width: 50px;
+        height:50px;
+        right: 2.5rem;
+    }
+    .logo{
+        text-align: left;
+        margin-left: -20px;
+        padding-top: 20px;
+    }
+    .copyrights{
+        text-align: left;
+        margin-left: -20px;
+        padding-top: 20px;
+    }
+    
+}
